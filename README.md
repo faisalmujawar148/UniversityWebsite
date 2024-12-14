@@ -22,16 +22,16 @@ I want to extend my heartfelt gratitude to:
 - The Gang of Four (Design Patterns).  
 - My parents, and God.  
 
-With a heavy yet light heart, I'm proud to submit this roller-coaster of a coursework.  
+With a heavy yet light heart, I'm proud to submit this roller-coaster of a project.  
 
 ---
 
 ## **How to Run the Project**  
-1. Clone this repository and the front-end repo (I won't tell you where to find it! haha!).  
+1. Clone this repository.  
 2. Have Node.js, Maven, SDKMan, Java(> ver.17) and npm installed.
 3. Navigate to the project directory.  
-4. Go to either CW1/CW2
-5. Run: `mvn clean install; mvn compile checkstyle:check spotbugs:check verify site;`
+4. Go to `/CW2`. i.e `cd CW2`
+5. Run: `mvn clean install; mvn compile checkstyle:check spotbugs:check verify site;` to test that it's working
 6. If in CW2, `mvn spring-boot:run;`
 7. Now that the backend is running, head to the front-end directory.
 8. Run: `npm install` (if you haven't already)
